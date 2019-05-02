@@ -1,8 +1,8 @@
 # c8CoverageTest
 
-Proof of concept for tests coverage using ava + esm + c8
+Proof of concept for tests coverage using ava + esm + c8.
 
-This is still not working at the moment. You can open a new issue is you have any relevant information.
+:construction: This is still not working at the moment. You can open a new issue is you have any relevant information. :construction:
 
 ## Install
 
