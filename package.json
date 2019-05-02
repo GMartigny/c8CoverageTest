@@ -1,0 +1,21 @@
+{
+  "name": "c8coveragetest",
+  "version": "0.1.0",
+  "description": "Proof of concept for tests coverage using ava + esm + c8",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^1.4.1",
+    "c8": "^4.0.0",
+    "esm": "^3.2.22"
+  },
+  "scripts": {
+    "test": "c8 ava --require esm",
+    "report": "c8 report --reporter=html"
+  },
+  "esm": {
+    "sourceMap": true
+  },
+  "author": "GMartigny <guillaume.martigny@gmail.com>",
+  "license": "UNLICENSED"
+}
